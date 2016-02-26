@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mapViewHolder"
+    android:orientation="vertical"
+    tools:context="com.example.prasachd.ixonos.SplashActivity">
+
+
+    <!--fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".UserLocationFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment" /-->
+
+    <!--com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserLocationFragment"
+        android:id="@+id/map" /-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:textColor="#6f8ac9"
+        android:id="@+id/addressId"
+        android:background="#7a7676" />
+</LinearLayout>
