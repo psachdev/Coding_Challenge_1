@@ -56,12 +56,24 @@ public class SplashActivity extends Activity {
                 R.drawable.splashscreen);
         Bitmap scaled = Bitmap.createScaledBitmap(splashImage, width, height, true);
         splashImageView.setImageBitmap(scaled);
+
+
     }
+
 
     @Override
     protected void onResume() {
         super.onResume();
         mTracker.setScreenName("" + TAG);
         mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+        Intent intent = getIntent();
+        String scheme = intent.getScheme();
+        if(scheme.equals("prateekscheme")) {
+            mTracker.send(new HitBuilders.EventBuilder()
+                    .setCategory("Action")
+                    .setAction("Launched via Link")
+                    .build());
+        }
     }
 }
