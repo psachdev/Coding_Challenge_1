@@ -22,10 +22,10 @@ Picture 1 and Picture 2 show the flows between these views in two different case
 ● CASE 2 - When user data is not available in the application
 For each view, consider the related PSD for pixel perfect implementation.
 
-2.Intent handling for application URL, for opening the greeting view via intent URI. Purpose is to
+2.  Intent handling for application URL, for opening the greeting view via intent URI. Purpose is to
 open the application from an email link.
 
-3. Application should be integrated with Google Analytics and report basic metrics to GA. Pick up
+3.  Application should be integrated with Google Analytics and report basic metrics to GA. Pick up
 those you think more relevant. At least these should be added:
 ● statistics from showing greetings
 ● statistics from application launches via link
