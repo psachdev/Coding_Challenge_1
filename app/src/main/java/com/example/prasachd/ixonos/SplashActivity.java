@@ -69,7 +69,7 @@ public class SplashActivity extends Activity {
 
         Intent intent = getIntent();
         String scheme = intent.getScheme();
-        if(scheme.equals("prateekscheme")) {
+        if(scheme!=null && scheme.equals("prateekscheme")) {
             mTracker.send(new HitBuilders.EventBuilder()
                     .setCategory("Action")
                     .setAction("Launched via Link")
