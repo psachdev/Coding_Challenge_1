@@ -34,3 +34,6 @@ those you think more relevant. At least these should be added:
 # List of tracking items
 1. Screen Tracked - SplashActivity(First Screen), UserDetailsActivity, UserLocationFragment, SignupFragment, AboutFragment
 2. Events Tracked - Application Launch via Link & Whenever user signs up 
+
+# Link to launch application : 
+<a href="intent://prateekhost/#Intent;scheme=prateekscheme;package=com.example.prasachd.ixonos;end"> App Link </a>
